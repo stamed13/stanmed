@@ -1,5 +1,12 @@
 # stanmed13.github.io
-My website.
-thirst on github
 
--put my procect to this repository
+Thirst web on github. 
+
+-I love life
+-I would care about my own body
+
+-there I will post something about:
+  my projects for school
+  my exercise projects
+  
+  
