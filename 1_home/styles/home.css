@@ -1,0 +1,23 @@
+section .theme {
+  width: 25rem;
+  border-radius: 35%;
+  -webkit-box-shadow: 0 2px 10px #333333;
+          box-shadow: 0 2px 10px #333333;
+  display: block;
+  margin: auto;
+}
+
+section .theme:hover {
+  border-radius: 50%;
+}
+
+section .rychlovka li a {
+  text-decoration: none;
+  color: black;
+}
+
+section .rychlovka li a:hover {
+  font-weight: 600;
+  color: brown;
+}
+/*# sourceMappingURL=home.css.map */
