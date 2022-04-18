@@ -1,0 +1,34 @@
+#content {
+  padding: 5rem 3rem;
+}
+
+@media (min-width: 240px) {
+  #content {
+    margin-top: 26rem;
+  }
+}
+
+@media (min-width: 540px) {
+  #content {
+    margin-top: 20rem;
+  }
+}
+
+@media (min-width: 660px) {
+  #content {
+    margin-top: 11.5rem;
+  }
+}
+
+#content h3 {
+  text-align: start;
+  color: rgba(0, 0, 0, 0.63);
+  font-size: 2.3rem;
+}
+
+#content h2 {
+  text-align: center;
+  color: #692100;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=content.css.map */
