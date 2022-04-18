@@ -1,0 +1,19 @@
+section .lion {
+  width: 450px;
+  height: 250px;
+  border-radius: 20%;
+  -webkit-box-shadow: 0 0 20px #414141;
+          box-shadow: 0 0 20px #414141;
+  border: 10px;
+  display: block;
+  margin: auto;
+}
+
+section .lion:hover {
+  width: 500px;
+  height: 250px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 0 30px #ffae00;
+          box-shadow: 0 0 30px #ffae00;
+}
+/*# sourceMappingURL=other.css.map */

@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.trieda-aut {
+  color: #000;
+  text-align: left;
+  font-size: medium;
+}
+
+.cars {
+  background: #a50000;
+  padding: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  grid-gap: 20px;
+}
+
+.cars .car {
+  text-align: center;
+  color: #fa4f00;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.cars .car:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.cars .car a {
+  color: #fffdfd;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  background: black;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.cars .car a:hover {
+  background: blanchedalmond;
+  color: #000;
+  font-weight: 800;
+}
+/*# sourceMappingURL=grid-karticky1.css.map */
