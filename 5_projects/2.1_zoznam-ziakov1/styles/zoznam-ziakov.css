@@ -1,0 +1,49 @@
+section article {
+  margin-bottom: 5rem;
+}
+
+section article li {
+  margin-left: 3.5rem;
+}
+
+section .trieda {
+  list-style-type: upper-roman;
+  color: #ca6200;
+  font-weight: 1000;
+  font-size: 25px;
+}
+
+section .trieda li .A {
+  text-transform: uppercase;
+}
+
+section .trieda li .skupina {
+  list-style-type: decimal;
+  color: #627300;
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+section .trieda li .skupina li .sk {
+  text-transform: capitalize;
+}
+
+section .trieda li .skupina li .students {
+  list-style-type: decimal-leading-zero;
+  color: black;
+  font-weight: 560;
+  font-size: smaller;
+}
+
+section .trieda li .skupina li .students li {
+  text-transform: capitalize;
+}
+
+section .trieda li .skupina li .students li .material-icons {
+  color: blue;
+}
+
+section .trieda li .skupina li .students li .fa-car {
+  color: black;
+}
+/*# sourceMappingURL=zoznam-ziakov.css.map */
