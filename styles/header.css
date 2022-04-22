@@ -9,8 +9,15 @@ header section {
   display: -ms-grid;
   display: grid;
   grid-gap: 0.5rem;
-  padding: 0.5rem;
+  padding: 1rem;
   background: rgba(0, 0, 0, 0.801);
+}
+
+@media (min-width: 0px) {
+  header section {
+    grid-auto-flow: unset;
+    justify-items: center;
+  }
 }
 
 @media (min-width: 500px) {
@@ -23,12 +30,10 @@ header section {
         -ms-flex-pack: justify;
             justify-content: space-between;
     grid-gap: 1rem;
-    padding: 1rem;
   }
 }
 
 header section a .logo {
-  padding: 1.5rem;
   border-radius: 25%;
   -webkit-transition-delay: .5s;
           transition-delay: .5s;
@@ -40,39 +45,15 @@ header section a .logo:hover {
   border-radius: 50%;
 }
 
-@media (min-width: 150px) {
+@media (min-width: 0px) {
   header section a .logo {
-    width: 1.5rem;
+    width: 2.5rem;
   }
 }
 
-@media (min-width: 200px) {
-  header section a .logo {
-    width: 2rem;
-  }
-}
-
-@media (min-width: 300px) {
-  header section a .logo {
-    width: 3rem;
-  }
-}
-
-@media (min-width: 400px) {
+@media (min-width: 600px) {
   header section a .logo {
     width: 4rem;
-  }
-}
-
-@media (min-width: 690px) {
-  header section a .logo {
-    width: 5rem;
-  }
-}
-
-@media (min-width: 800px) {
-  header section a .logo {
-    width: 6rem;
   }
 }
 
@@ -83,40 +64,20 @@ header section a .logo:hover {
 }
 
 header section h1 {
-  padding: 1.5rem;
   color: #e75d26;
   text-align: center;
   font-weight: 600;
-  font-size: 20px;
 }
 
-@media (min-width: 150px) {
+@media (min-width: 0px) {
   header section h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 
-@media (min-width: 300px) {
-  header section h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 400px) {
+@media (min-width: 600px) {
   header section h1 {
     font-size: 4rem;
-  }
-}
-
-@media (min-width: 690px) {
-  header section h1 {
-    font-size: 5rem;
-  }
-}
-
-@media (min-width: 800px) {
-  header section h1 {
-    font-size: 6rem;
   }
 }
 
@@ -130,17 +91,15 @@ header nav {
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
   background: greenyellow;
 }
 
 header nav a {
-  margin: 10px 5px;
   text-decoration: none;
   -webkit-transition: .5s;
   transition: .5s;
@@ -149,5 +108,17 @@ header nav a {
 header nav a:hover {
   font-weight: 600;
   color: brown;
+}
+
+@media (min-width: 0px) {
+  header nav a {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 600px) {
+  header nav a {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=header.css.map */
