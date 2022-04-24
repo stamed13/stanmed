@@ -1,3 +1,1 @@
-# stanmed13.github.io
-
-1.1version website
+1.1version of my thirst project
