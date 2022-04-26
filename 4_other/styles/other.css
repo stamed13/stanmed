@@ -1,7 +1,5 @@
 section .lion {
-  width: 450px;
-  height: 250px;
-  border-radius: 20%;
+  border-radius: 20px;
   -webkit-box-shadow: 0 0 20px #414141;
           box-shadow: 0 0 20px #414141;
   border: 10px;
@@ -10,10 +8,17 @@ section .lion {
 }
 
 section .lion:hover {
-  width: 500px;
-  height: 250px;
-  border-radius: 50px;
+  width: medium;
+  height: medium;
+  border-radius: 75px;
   -webkit-box-shadow: 0 0 30px #ffae00;
           box-shadow: 0 0 30px #ffae00;
+}
+
+@media (min-width: 0px) {
+  section .lion {
+    width: 250px;
+    height: 125px;
+  }
 }
 /*# sourceMappingURL=other.css.map */
