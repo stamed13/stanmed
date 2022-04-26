@@ -1,17 +1,38 @@
 section .cat {
-  width: 350px;
+  width: 250px;
   height: 250px;
-  border-radius: 50%;
+  border-radius: 25%;
   -webkit-box-shadow: 0 2px 10px #333333;
           box-shadow: 0 2px 10px #333333;
   border: 10px;
   display: block;
   margin: auto;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 section .cat:hover {
-  width: 400px;
-  height: 250px;
   border-radius: 50%;
+}
+
+@media (min-width: 0px) {
+  section .cat {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 600px) {
+  section .cat {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 760px) {
+  section .cat {
+    width: 550px;
+    height: 550px;
+  }
 }
 /*# sourceMappingURL=bio.css.map */
