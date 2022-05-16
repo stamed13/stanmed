@@ -1,0 +1,34 @@
+#blog {
+    #titulok {
+        text-align: center;
+        font-size: 4.2rem;
+        font-weight: 600;
+    }
+
+    #info {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: start;
+        grid-gap: 1rem;
+        padding-bottom: 1.4rem;
+    }
+
+    #titulna-fotka {
+        display: block;
+        margin: auto;
+        padding-bottom: 2rem;
+
+        @media(min-width: 0px){
+            width: 40rem;
+        }
+
+        @media(min-width: 800px){
+            width: 80rem;
+        }
+    }
+
+    #hashtagy {
+        padding-top: 1rem;
+        color: rgb(255, 194, 80);
+    }
+}

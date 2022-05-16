@@ -1,0 +1,15 @@
+#footer {
+    display: grid;
+    grid-gap: 1rem;
+    justify-items: center;
+    padding: 1rem;
+    background: black;
+    color: rgb(255, 255, 255);
+
+    #kontakt {
+        display: grid;
+        grid-gap: 1rem;
+        grid-auto-flow: column;
+        justify-content: center;
+    }
+}

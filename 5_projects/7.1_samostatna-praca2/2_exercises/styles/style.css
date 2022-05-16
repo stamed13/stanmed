@@ -1,0 +1,106 @@
+#blogy h2 {
+  text-align: center;
+  margin-bottom: 3.5rem;
+  color: #c7c7c7;
+}
+
+#blogy .blogy {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1.8rem;
+  justify-items: center;
+}
+
+@media (min-width: 1200px) {
+  #blogy .blogy {
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    width: 53rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  #blogy .blogy {
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    width: 53rem;
+  }
+}
+
+#blogy .blogy a {
+  text-decoration: none;
+}
+
+#blogy .blogy a .blog {
+  display: -ms-grid;
+  display: grid;
+  gap: 1.8rem;
+  justify-items: start;
+  border: 1px solid rgba(0, 0, 0, 0.516);
+  background: rgba(0, 0, 0, 0.713);
+  padding: 1rem;
+}
+
+@media (min-width: 0px) {
+  #blogy .blogy a .blog {
+    grid-auto-flow: auto;
+    width: 24rem;
+  }
+}
+
+@media (min-width: 600px) {
+  #blogy .blogy a .blog {
+    grid-auto-flow: column;
+    width: 53rem;
+  }
+}
+
+#blogy .blogy a .blog .obrazok {
+  width: 24rem;
+}
+
+#blogy .blogy a .blog .opis {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 2rem;
+  color: #b6b6b6;
+}
+
+#blogy .blogy a .blog .opis .main {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+#blogy .blogy a .blog .opis .main .popis {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+#blogy .blogy a .blog .opis .main .popis .nadpis {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #b1ff58;
+}
+
+#blogy .blogy a .blog .opis .main .popis .textik {
+  font-size: 1.9rem;
+}
+
+#blogy .blogy a .blog .opis .main .kategoria {
+  color: green;
+}
+
+#blogy .blogy a .blog .opis .info {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 1.8rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,96 @@
+#blogy {
+ 
+
+    h2 {
+        text-align: center;
+        margin-bottom: 3.5rem;
+        color: rgb(199, 199, 199);
+    }
+
+    .blogy {
+        display: grid;
+        grid-gap: 1.8rem;
+        justify-items: center;
+
+        @media(min-width: 1200px){
+            grid-template-columns: repeat(2, auto);
+            width: 53rem;
+        }
+
+        @media(min-width: 1800px){
+            grid-template-columns: repeat(3, auto);
+            width: 53rem;
+        }
+
+        a {
+            text-decoration: none;
+
+            .blog {
+                display: grid;
+                gap: 1.8rem;
+                justify-items: start;
+                border: 1px solid rgba(0, 0, 0, 0.516);
+                background: rgba(0, 0, 0, 0.713);
+                padding: 1rem;
+
+                @media(min-width: 0px){
+                    grid-auto-flow: auto;
+                    width: 24rem;
+                }
+    
+                @media(min-width: 600px){
+                    grid-auto-flow: column;
+                    width: 53rem;
+                }
+
+                    .obrazok {
+                        width: 24rem;
+                    }
+    
+                    .opis {
+                        position: relative;
+                        display: grid;
+                        grid-gap: 2rem;
+                        color: rgb(182, 182, 182);
+        
+                        .main {
+                            display: grid;
+                            grid-auto-flow: column;
+        
+                            .popis {
+                                display: grid;
+                                //grid-template: auto;
+                                grid-gap: 1rem;
+            
+                                .nadpis {
+                                    font-size: 3rem;
+                                    font-weight: 600;
+                                    color: rgb(177, 255, 88);
+                                }
+                
+                                .textik {
+                                    font-size: 1.9rem;
+                                }
+                            }
+        
+                            .kategoria {
+                                color: green;
+                            }
+                        }
+        
+                        .info {
+                            display: grid;
+                            grid-auto-flow: column;
+                            grid-gap: 1rem;
+                            justify-content: start;
+                            font-size: 1.8rem;
+            
+                            .autor {}
+            
+                            .datum {}
+                        }
+                    }
+            }
+        }
+    }
+}
