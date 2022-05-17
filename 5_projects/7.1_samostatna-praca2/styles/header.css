@@ -1,0 +1,86 @@
+#header {
+  background: rgba(0, 0, 0, 0.598);
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0;
+}
+
+#header section {
+  padding: 1rem;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+@media (min-width: 0px) {
+  #header section {
+    grid-auto-flow: unset;
+    justify-items: center;
+  }
+}
+
+@media (min-width: 500px) {
+  #header section {
+    grid-auto-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    grid-gap: 1rem;
+  }
+}
+
+#header section #ikona {
+  width: 6rem;
+  border-radius: 1rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#header section #ikona:hover {
+  border-radius: 50%;
+}
+
+#header section h1 {
+  color: #cbfa84;
+  font-size: 4.8rem;
+}
+
+@media (min-width: 0px) {
+  #header section h1 {
+    font-size: 3.4rem;
+  }
+}
+
+@media (min-width: 500px) {
+  #header section h1 {
+    font-size: 4.8rem;
+  }
+}
+
+#header nav {
+  padding: .5rem 0;
+  background: black;
+}
+
+#header nav #actual {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#header nav a {
+  color: rgba(255, 255, 255, 0.466);
+  background: black;
+  text-decoration: none;
+  font-weight: 500;
+  padding: .5rem;
+}
+
+#header nav a:hover {
+  color: black;
+  background: rgba(255, 255, 255, 0.466);
+  font-weight: 600;
+}
+/*# sourceMappingURL=header.css.map */
