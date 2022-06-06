@@ -1,5 +1,5 @@
 #header {
-  background: rgba(0, 0, 0, 0.598);
+  background: #015221;
   display: -ms-grid;
   display: grid;
   grid-gap: 0;
@@ -44,13 +44,13 @@
 }
 
 #header section h1 {
-  color: #cbfa84;
+  color: #99ff00;
   font-size: 4.8rem;
 }
 
 @media (min-width: 0px) {
   #header section h1 {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
   }
 }
 
