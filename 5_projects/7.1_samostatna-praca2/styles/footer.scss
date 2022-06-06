@@ -33,7 +33,14 @@
     }
 
     #create {
-        font-size: 2.1rem;
         color: whitesmoke;
+
+        @media(min-width: 0px){
+            font-size: 1.4rem;
+        }
+
+        @media(min-width: 600px){
+            font-size: 2.1rem;
+        }
     }
 }

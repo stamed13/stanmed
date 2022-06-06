@@ -40,7 +40,18 @@
 }
 
 #footer #create {
-  font-size: 2.1rem;
   color: whitesmoke;
+}
+
+@media (min-width: 0px) {
+  #footer #create {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 600px) {
+  #footer #create {
+    font-size: 2.1rem;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

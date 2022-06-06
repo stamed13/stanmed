@@ -93,13 +93,12 @@
 
 #blog .textik {
   color: white;
-  padding-bottom: 8rem;
 }
 
 #blog #warning {
   color: black;
   font-weight: 600;
-  padding-top: 1rem;
+  padding-top: 10rem;
 }
 
 #blog #hashtagy {
