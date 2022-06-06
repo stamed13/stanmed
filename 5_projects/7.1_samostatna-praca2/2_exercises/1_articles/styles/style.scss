@@ -20,6 +20,7 @@
         font-size: 4.2rem;
         font-weight: 600;
         color: whitesmoke;
+        padding-bottom: 1rem;
     }
 
     #info {
@@ -27,7 +28,7 @@
         grid-auto-flow: column;
         justify-content: start;
         grid-gap: 1rem;
-        padding-bottom: 1.4rem;
+        padding-bottom: 2.6rem;
 
         .info {
             display: grid;
@@ -67,6 +68,11 @@
         }
     }
 
+    .uvod {
+        color: white;
+        padding-bottom: 1rem;
+    }
+
     #titulna-fotka {
         display: block;
         margin: auto;
@@ -84,9 +90,12 @@
 
     .textik {
         color: white;
+        padding-bottom: 8rem;
     }
 
     #warning {
+        color: black;
+        font-weight: 600;
         padding-top: 1rem;
     }
 
