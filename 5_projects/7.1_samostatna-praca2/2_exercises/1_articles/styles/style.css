@@ -65,6 +65,18 @@
           justify-content: start;
 }
 
+@media (min-width: 0px) {
+  #blog #info {
+    grid-gap: 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  #blog #info {
+    grid-gap: 2rem;
+  }
+}
+
 #blog #info .info {
   display: -ms-grid;
   display: grid;
@@ -79,20 +91,6 @@
 }
 
 @media (min-width: 800px) {
-  #blog #info .info {
-    grid-gap: 1rem;
-    font-size: 2.4rem;
-  }
-}
-
-@media (min-width: 1400px) {
-  #blog #info .info {
-    grid-gap: 1rem;
-    font-size: 2.4rem;
-  }
-}
-
-@media (min-width: 1800px) {
   #blog #info .info {
     grid-gap: 1rem;
     font-size: 2.4rem;
@@ -153,7 +151,13 @@
 
 @media (min-width: 0px) {
   #blog #titulna-fotka {
-    width: 30rem;
+    width: 20rem;
+  }
+}
+
+@media (min-width: 500px) {
+  #blog #titulna-fotka {
+    width: 45rem;
   }
 }
 

@@ -46,6 +46,14 @@
         grid-auto-flow: column;
         justify-content: start;
 
+        @media(min-width: 0px){
+            grid-gap: 1rem;
+        }
+
+        @media(min-width: 800px){
+            grid-gap: 2rem;
+        }
+
         .info {
             display: grid;
             grid-auto-flow: column;
@@ -56,16 +64,6 @@
             }
     
             @media(min-width: 800px){
-                grid-gap: 1rem;
-                font-size: 2.4rem;
-            }
-    
-            @media(min-width: 1400px){
-                grid-gap: 1rem;
-                font-size: 2.4rem;
-            }
-    
-            @media(min-width: 1800px){
                 grid-gap: 1rem;
                 font-size: 2.4rem;
             }
@@ -128,7 +126,11 @@
         padding-bottom: 2rem;
 
         @media(min-width: 0px){
-            width: 30rem;
+            width: 20rem;
+        }
+
+        @media(min-width: 500px){
+            width: 45rem;
         }
 
         @media(min-width: 800px){
