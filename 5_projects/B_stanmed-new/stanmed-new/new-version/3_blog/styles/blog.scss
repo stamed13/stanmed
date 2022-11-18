@@ -15,24 +15,59 @@
     #blogs {
         display: grid;
         gap: 25px;
+        justify-content: center;
+
+        @media(min-width: 300px) {
+            grid-template-columns: repeat(1, auto);
+        }
+
+        @media(min-width: 750px) {
+            grid-template-columns: repeat(2, auto);
+        }
+
+        @media(min-width: 1450px) {
+            grid-template-columns: repeat(3, auto);
+        }
 
         .blog {
                 display: grid;
                 gap: 10px;
-                grid-auto-flow: column;
+                //grid-auto-flow: column;
                 justify-content: start;
                 border: 1px solid black;
                 border-radius: 5px;
                 padding: 10px;
 
+                @media(min-width: 0px) {
+                    grid-auto-flow: row;
+                    //width: 200px;
+                }
+        
+                @media(min-width: 426px) {
+                    grid-auto-flow: column;
+                    //width: auto;
+                }
+
             .blog-image {
-                height: 100px;
                 border-radius: 5px;
+
+                @media(min-width: 0px) {
+                    width: 78vw;
+                }
+        
+                @media(min-width: 426px) {
+                    width: 38vw;
+                }
+
+                @media(min-width: 750px) {
+                    width: 18vw;
+                }
             }
 
             .blog-info {
                 display: grid;
                 gap: 5px;
+                //width: 100%;
                 
 
                 .blog-header {
