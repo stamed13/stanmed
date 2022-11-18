@@ -1,0 +1,81 @@
+#header {
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+
+#header section {
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #6f961d;
+}
+
+#header section a #header-logo {
+  width: 35px;
+  border-radius: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#header section a #header-logo:hover {
+  border-radius: 50%;
+}
+
+#header section #header-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  padding-right: 50px;
+  color: #efffcc;
+}
+
+#header #header-menu {
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #91d62a;
+}
+
+#header #header-menu nav {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px;
+}
+
+#header #header-menu nav #actual {
+  text-decoration: underline;
+}
+
+#header #header-menu nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+#header #header-menu nav a:hover {
+  color: brown;
+  font-weight: 800;
+}
+
+#header #header-menu #search {
+  margin-right: 10px;
+  padding-left: 2px;
+  width: 85px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background: whitesmoke;
+  color: black;
+}
+/*# sourceMappingURL=header.css.map */

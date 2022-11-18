@@ -1,0 +1,77 @@
+#header {
+    position: fixed;
+    width: 100%;
+    background: white;
+
+    section {
+        padding: 10px;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-between;
+        align-items: center;
+        background: #6f961d;
+
+        a {
+            //background: black;//len test linku loga
+
+            #header-logo {
+                width: 35px;
+                border-radius: 10px;
+                transition: .5s;
+
+                &:hover {
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        #header-title {
+            font-weight: 800;
+            font-size: 2.5rem;
+            padding-right: 50px;
+            color: #efffcc;
+        }
+    }
+
+    #header-menu {
+        padding: 10px;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-between;//nav a input od seba na okraj
+        background: #91d62a;
+
+        nav {
+            //padding: 5px;
+            display: grid;
+            grid-auto-flow: column;
+            gap: 10px;
+
+            #actual {
+                //font-weight: 800;
+                text-decoration: underline;
+            }
+
+            a {
+                //padding: 5px;
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: black;
+
+                &:hover {
+                    color: brown;
+                    font-weight: 800;
+                }
+            }
+        }
+
+        #search {
+            margin-right: 10px;
+            padding-left: 2px;
+            width: 85px;
+            border-radius: 5px;
+            border: 2px solid black;
+            background: whitesmoke;
+            color: black;
+        }
+    }
+}

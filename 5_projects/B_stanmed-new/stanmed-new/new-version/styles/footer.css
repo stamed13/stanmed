@@ -1,0 +1,35 @@
+#footer {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  grid-gap: 5px;
+  padding: 10px;
+  background: #6f961d;
+}
+
+#footer #social-media {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+#footer #social-media .media {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+#footer #since {
+  color: white;
+}
+/*# sourceMappingURL=footer.css.map */

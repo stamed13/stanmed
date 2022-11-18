@@ -1,0 +1,50 @@
+section article {
+  margin-bottom: 5rem;
+}
+
+section article li {
+  margin-left: 3rem;
+}
+
+section .projekty {
+  list-style-type: decimal-leading-zero;
+}
+
+@media (min-width: 150px) {
+  section .projekty li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  section .projekty li {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 660px) {
+  section .projekty li {
+    font-size: 2.3rem;
+  }
+}
+
+section .projekty li .project {
+  display: -ms-grid;
+  display: grid;
+}
+
+section .projekty li .project a {
+  color: black;
+  text-decoration: underline;
+  padding-bottom: 2px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: start;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+section .projekty li .project a:hover {
+  font-weight: 600;
+}
+/*# sourceMappingURL=projects.css.map */

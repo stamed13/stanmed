@@ -1,0 +1,33 @@
+#footer {
+    display: grid;
+    justify-items: center;
+    grid-gap: 5px;
+    padding: 10px;
+    background: #6f961d;
+
+    #social-media {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        grid-gap: 5px;
+        padding: 5px;
+
+        .media {
+            display: grid;
+            justify-content: center;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            //background: black;//nefunguje, pretoze to je fotka :)
+            //color: white;
+
+            &:hover {
+
+            }
+        }
+    }
+
+    #since {
+        color: white;
+    }
+}
