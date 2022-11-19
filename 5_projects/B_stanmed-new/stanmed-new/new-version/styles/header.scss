@@ -4,12 +4,22 @@
     background: white;
 
     section {
-        padding: 10px;
         display: grid;
-        grid-auto-flow: column;
-        justify-content: space-between;
-        align-items: center;
         background: #6f961d;
+
+        @media(min-width: 0px) {
+            padding: 5px;
+            grid-auto-flow: row;
+            justify-items: center;
+            //align-items: center;
+        }
+
+        @media(min-width: 426px) {
+            padding: 10px;
+            grid-auto-flow: column;
+            justify-content: space-between;
+            align-items: center;
+        }
 
         a {
             //background: black;//len test linku loga
@@ -28,23 +38,50 @@
         #header-title {
             font-weight: 800;
             font-size: 2.5rem;
-            padding-right: 50px;
             color: #efffcc;
+
+            @media(min-width: 0px) {
+                font-size: 1.8rem;
+                padding-right: 0px;
+            }
+    
+            @media(min-width: 426px) {
+                font-size: 2.5rem;
+                padding-right: 50px;
+            }
         }
     }
 
     #header-menu {
-        padding: 10px;
         display: grid;
-        grid-auto-flow: column;
-        justify-content: space-between;//nav a input od seba na okraj
         background: #91d62a;
+
+        @media(min-width: 0px) {
+            padding: 5px;
+            grid-auto-flow: row;
+            justify-items: center;
+            gap: 10px;
+        }
+
+        @media(min-width: 426px) {
+            padding: 10px;
+            grid-auto-flow: column;
+            justify-content: space-between;
+            gap: 0px;
+        }
 
         nav {
             //padding: 5px;
             display: grid;
             grid-auto-flow: column;
-            gap: 10px;
+            
+            @media(min-width: 0px) {
+                gap: 5px;
+            }
+    
+            @media(min-width: 426px) {
+                gap: 10px;
+            }
 
             #actual {
                 //font-weight: 800;
@@ -54,8 +91,15 @@
             a {
                 //padding: 5px;
                 text-decoration: none;
-                font-size: 1.2rem;
                 color: black;
+
+                @media(min-width: 0px) {
+                    font-size: 1rem;
+                }
+        
+                @media(min-width: 426px) {
+                    font-size: 1.2rem;
+                }
 
                 &:hover {
                     color: brown;
@@ -65,13 +109,23 @@
         }
 
         #search {
-            margin-right: 10px;
             padding-left: 2px;
-            width: 85px;
             border-radius: 5px;
             border: 2px solid black;
             background: whitesmoke;
             color: black;
+
+            @media(min-width: 0px) {
+                width: 145px;
+            }
+    
+            @media(min-width: 426px) {
+                width: 110px;
+            }
+
+            @media(min-width: 650px) {
+                width: 220px;
+            }
         }
     }
 }

@@ -29,7 +29,37 @@
   height: 45px;
 }
 
-#footer #since {
+#footer #footer-info {
+  display: -ms-grid;
+  display: grid;
   color: white;
+}
+
+@media (min-width: 0px) {
+  #footer #footer-info {
+    grid-auto-flow: row;
+    justify-items: center;
+  }
+}
+
+@media (min-width: 426px) {
+  #footer #footer-info {
+    grid-auto-flow: column;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 750px) {
+  #footer #footer-info {
+    grid-auto-flow: column;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1450px) {
+  #footer #footer-info {
+    grid-auto-flow: column;
+    gap: 10px;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

@@ -46,6 +46,20 @@
   }
 }
 
+@media (min-width: 2200px) {
+  #blog #blogs {
+    -ms-grid-columns: (auto)[4];
+        grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media (min-width: 2950px) {
+  #blog #blogs {
+    -ms-grid-columns: (auto)[5];
+        grid-template-columns: repeat(5, auto);
+  }
+}
+
 #blog #blogs .blog {
   display: -ms-grid;
   display: grid;
@@ -55,6 +69,7 @@
           justify-content: start;
   border: 1px solid black;
   border-radius: 5px;
+  background: #deff99;
   padding: 10px;
 }
 
@@ -71,12 +86,16 @@
 }
 
 #blog #blogs .blog .blog-image {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: center;
+      justify-self: center;
   border-radius: 5px;
 }
 
 @media (min-width: 0px) {
   #blog #blogs .blog .blog-image {
-    width: 78vw;
+    width: 82vw;
   }
 }
 
@@ -88,7 +107,19 @@
 
 @media (min-width: 750px) {
   #blog #blogs .blog .blog-image {
-    width: 18vw;
+    width: 16vw;
+  }
+}
+
+@media (min-width: 1406px) {
+  #blog #blogs .blog .blog-image {
+    width: 12vw;
+  }
+}
+
+@media (min-width: 2950px) {
+  #blog #blogs .blog .blog-image {
+    width: 10vw;
   }
 }
 
@@ -107,16 +138,55 @@
           justify-content: space-between;
 }
 
+@media (min-width: 0px) {
+  #blog #blogs .blog .blog-info .blog-header {
+    grid-auto-flow: row;
+  }
+}
+
+@media (min-width: 426px) {
+  #blog #blogs .blog .blog-info .blog-header {
+    grid-auto-flow: column;
+  }
+}
+
 #blog #blogs .blog .blog-info .blog-header .blog-title {
-  font-size: 25px;
   font-weight: 600;
 }
 
-#blog #blogs .blog .blog-info .blog-header .blog-cathegory {
-  font-size: 20px;
+@media (min-width: 0px) {
+  #blog #blogs .blog .blog-info .blog-header .blog-title {
+    font-size: 23px;
+  }
 }
 
-#blog #blogs .blog .blog-info .blog-description {
-  font-size: 18px;
+@media (min-width: 1010px) {
+  #blog #blogs .blog .blog-info .blog-header .blog-title {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 0px) {
+  #blog #blogs .blog .blog-info .blog-header .blog-cathegory {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1010px) {
+  #blog #blogs .blog .blog-info .blog-header .blog-cathegory {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 0px) {
+  #blog #blogs .blog .blog-info .blog-description {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1010px) {
+  #blog #blogs .blog .blog-info .blog-description {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=blog.css.map */
