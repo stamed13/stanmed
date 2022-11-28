@@ -1,0 +1,75 @@
+#projects #projects-info {
+  min-height: 100vh;
+}
+
+#projects #projects-info #projects-title {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#projects #projects-info #projects-introduction {
+  font-size: 1.2rem;
+}
+
+#projects #projects-info #project-lists {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+#projects #projects-info #project-lists #pr-list-lists {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+#projects #projects-info #project-lists #pr-list-lists .pr-list-list {
+  color: black;
+}
+
+#projects #projects-info #project-lists #pr-list-lists .pr-list-comma {
+  padding-right: 5px;
+}
+
+#projects .projects-list {
+  min-height: 100vh;
+  padding-top: 120px;
+}
+
+#projects .projects-list .title {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+#projects .projects-list .projects ul {
+  padding-left: 25px;
+  font-size: 1.2rem;
+  list-style-type: decimal-leading-zero;
+}
+
+#projects .projects-list .projects ul li .project {
+  color: black;
+}
+
+#projects .projects-list .projects ul li .project:hover {
+  font-weight: 600;
+}
+/*# sourceMappingURL=projects.css.map */

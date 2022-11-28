@@ -1,0 +1,12 @@
+footer {
+  background: rgba(0, 0, 0, 0.655);
+  padding-bottom: 2rem;
+}
+
+footer div {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  opacity: .4;
+}
+/*# sourceMappingURL=footer.css.map */

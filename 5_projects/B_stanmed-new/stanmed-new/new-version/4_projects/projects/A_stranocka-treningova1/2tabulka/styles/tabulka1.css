@@ -1,0 +1,11 @@
+article#img0 .tabulka1 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.603);
+}
+
+article#img0 .tabulka1 tr th, article#img0 .tabulka1 tr td {
+  border: 1px dashed black;
+  padding: 10px 20px;
+}
+/*# sourceMappingURL=tabulka1.css.map */
