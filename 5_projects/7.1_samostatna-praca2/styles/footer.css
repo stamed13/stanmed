@@ -1,57 +1,42 @@
 #footer {
-  display: -ms-grid;
   display: grid;
   grid-gap: 1rem;
   justify-items: center;
   padding: 1rem;
   background: rgba(0, 0, 0, 0.679);
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 #footer #kontakt {
-  display: -ms-grid;
   display: grid;
   grid-gap: 1rem;
   grid-auto-flow: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 #footer #kontakt .kontakt {
-  display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  color: black;
-  background: #848484;
+  justify-content: center;
+  align-content: center;
+  color: rgb(0, 0, 0);
+  background: rgb(132, 132, 132);
   border-radius: 50%;
   text-decoration: none;
   width: 5rem;
   height: 5rem;
 }
-
 #footer #kontakt .kontakt:hover {
-  color: #888888;
-  background: black;
+  color: rgb(136, 136, 136);
+  background: rgb(0, 0, 0);
 }
-
 #footer #create {
   color: whitesmoke;
 }
-
 @media (min-width: 0px) {
   #footer #create {
     font-size: 1.4rem;
   }
 }
-
 @media (min-width: 600px) {
   #footer #create {
     font-size: 2.1rem;
   }
 }
-/*# sourceMappingURL=footer.css.map */
