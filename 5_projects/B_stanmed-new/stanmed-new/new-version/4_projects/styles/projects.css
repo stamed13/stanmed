@@ -11,6 +11,7 @@
   font-size: 1.2rem;
 }
 #projects #projects-info #project-lists {
+  margin-top: 10px;
   display: grid;
   grid-auto-flow: column;
   justify-content: start;
@@ -24,6 +25,9 @@
 }
 #projects #projects-info #project-lists #pr-list-lists .pr-list-list {
   color: black;
+}
+#projects #projects-info #project-lists #pr-list-lists .pr-list-list:hover {
+  font-weight: 600;
 }
 #projects #projects-info #project-lists #pr-list-lists .pr-list-comma {
   padding-right: 5px;
