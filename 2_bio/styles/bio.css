@@ -14,6 +14,7 @@
 @media (min-width: 250px) {
   #bio #content-info #intro {
     grid-auto-flow: column;
+    justify-content: space-between;
   }
 }
 #bio #content-info #intro #content-introduction {

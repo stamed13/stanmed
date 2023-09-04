@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAEQ,IAFJ,CACA,SAAS,CACL,UAAU,CAAC;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CAClB;;AAPT,AAQQ,IARJ,CACA,SAAS,CAOL,iBAAiB,CAAC;EACd,SAAS,EAAE,MAAM;CACpB",
-    "sources": [
-        "bio.scss"
-    ],
-    "names": [],
-    "file": "bio.css"
-}
