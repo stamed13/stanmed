@@ -1,124 +1,126 @@
-header {
+#header {
   position: fixed;
-  -ms-grid-column-align: center;
-      justify-self: center;
   width: 100%;
+  background: white;
 }
-
-header section {
-  display: -ms-grid;
+#header section {
   display: grid;
-  grid-gap: 0.5rem;
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.801);
+  background: #6f961d;
 }
-
 @media (min-width: 0px) {
-  header section {
-    grid-auto-flow: unset;
+  #header section {
+    padding: 5px;
+    grid-auto-flow: row;
     justify-items: center;
   }
 }
-
-@media (min-width: 500px) {
-  header section {
+@media (min-width: 426px) {
+  #header section {
+    padding: 10px;
     grid-auto-flow: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    grid-gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
   }
 }
-
-header section a .logo {
-  border-radius: 25%;
-  -webkit-transition-delay: .5s;
-          transition-delay: .5s;
-  -webkit-transition: .7s;
-  transition: .7s;
+#header section a #header-logo {
+  width: 35px;
+  border-radius: 10px;
+  transition: 0.5s;
 }
-
-header section a .logo:hover {
+#header section a #header-logo:hover {
   border-radius: 50%;
 }
-
+#header section #header-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #efffcc;
+}
 @media (min-width: 0px) {
-  header section a .logo {
-    width: 2.5rem;
+  #header section #header-title {
+    font-size: 1.8rem;
+    padding-right: 0px;
   }
 }
-
-@media (min-width: 600px) {
-  header section a .logo {
-    width: 4rem;
-  }
-}
-
-@media (min-width: 900px) {
-  header section a .logo {
-    width: 7rem;
-  }
-}
-
-header section h1 {
-  color: #e75d26;
-  text-align: center;
-  font-weight: 600;
-}
-
-@media (min-width: 0px) {
-  header section h1 {
+@media (min-width: 426px) {
+  #header section #header-title {
     font-size: 2.5rem;
+    padding-right: 50px;
   }
 }
-
-@media (min-width: 600px) {
-  header section h1 {
-    font-size: 4rem;
+#header #header-menu {
+  display: grid;
+  background: #91d62a;
+}
+@media (min-width: 0px) {
+  #header #header-menu {
+    padding: 5px;
+    grid-auto-flow: row;
+    justify-items: center;
+    gap: 10px;
   }
 }
-
-@media (min-width: 900px) {
-  header section h1 {
-    font-size: 7rem;
+@media (min-width: 426px) {
+  #header #header-menu {
+    padding: 10px;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    gap: 0px;
   }
 }
-
-header nav {
-  display: -ms-grid;
+#header #header-menu nav {
   display: grid;
   grid-auto-flow: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 1rem;
-  padding: 0.5rem;
-  background: greenyellow;
 }
-
-header nav a {
-  text-decoration: none;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-header nav a:hover {
-  font-weight: 600;
-  color: brown;
-}
-
 @media (min-width: 0px) {
-  header nav a {
-    font-size: 1.5rem;
+  #header #header-menu nav {
+    gap: 5px;
   }
 }
-
-@media (min-width: 600px) {
-  header nav a {
-    font-size: 2rem;
+@media (min-width: 426px) {
+  #header #header-menu nav {
+    gap: 10px;
   }
 }
-/*# sourceMappingURL=header.css.map */
+#header #header-menu nav #actual {
+  text-decoration: underline;
+}
+#header #header-menu nav a {
+  text-decoration: none;
+  color: black;
+}
+@media (min-width: 0px) {
+  #header #header-menu nav a {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 426px) {
+  #header #header-menu nav a {
+    font-size: 1.2rem;
+  }
+}
+#header #header-menu nav a:hover {
+  color: brown;
+  font-weight: 800;
+}
+#header #header-menu #search {
+  padding-left: 2px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background: whitesmoke;
+  color: black;
+}
+@media (min-width: 0px) {
+  #header #header-menu #search {
+    width: 145px;
+  }
+}
+@media (min-width: 426px) {
+  #header #header-menu #search {
+    width: 110px;
+  }
+}
+@media (min-width: 650px) {
+  #header #header-menu #search {
+    width: 220px;
+  }
+}

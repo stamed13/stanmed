@@ -1,0 +1,28 @@
+#bio #bio-info {
+  margin-bottom: 50px;
+}
+#bio #bio-info #bio-title {
+  display: grid;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+#bio #bio-info #intro {
+  display: grid;
+}
+@media (max-width: 250px) {
+  #bio #bio-info #intro {
+    grid-auto-flow: column;
+  }
+}
+@media (min-width: 250px) {
+  #bio #bio-info #intro {
+    grid-auto-flow: row;
+  }
+}
+#bio #bio-info #intro #bio-introduction {
+  font-size: 1.2rem;
+}
+#bio #bio-info #intro .photo {
+  width: 90px;
+}

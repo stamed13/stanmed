@@ -1,0 +1,39 @@
+article#img2 .karticky1 {
+  background: rgba(0, 0, 0, 0.555);
+  padding: 1.4rem;
+  border-radius: 5%;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 15px;
+  -ms-flex-line-pack: end;
+      align-content: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+article#img2 .karticky1 .box {
+  background: rgba(0, 128, 0, 0.904);
+  border-radius: 10%;
+  padding: 0.8rem;
+  text-align: center;
+  color: black;
+}
+
+article#img2 .karticky1 .box h1 {
+  color: #00186f;
+}
+
+article#img2 .karticky1 .box:nth-child(even) {
+  background: rgba(8, 96, 0, 0.803);
+}
+
+article#img2 .karticky1 .box:hover {
+  background: rgba(0, 0, 0, 0.816);
+  color: white;
+}
+
+article#img2 .karticky1 .box:hover h1 {
+  color: #00a6ff;
+}
+/*# sourceMappingURL=grid1.css.map */

@@ -1,0 +1,25 @@
+article#img5 .grid2 {
+  background: rgba(0, 0, 0, 0.267);
+  padding: 2rem;
+  border-radius: 5%;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+article#img5 .grid2 .box {
+  background: rgba(75, 75, 255, 0.487);
+  padding: 1rem;
+  border-radius: 15%;
+}
+
+article#img5 .grid2 .box h1 {
+  text-align: center;
+  color: azure;
+}
+/*# sourceMappingURL=grid2.css.map */
