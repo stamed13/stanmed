@@ -1,11 +1,21 @@
 #home #content-title {
   display: grid;
-  justify-content: center;
+}
+#home #content-info a {
   font-weight: 600;
-  font-size: 2rem;
+  text-decoration: none;
+}
+#home #content-info a:hover {
+  font-weight: 600;
+  text-decoration: underline;
 }
 #home #content-info #introduction {
   font-size: 1.2rem;
+}
+#home #content-info #introduction #link-bio {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(104, 68, 0);
 }
 #home #content-info #introduction #bt-about {
   padding-top: 10px;
@@ -14,7 +24,7 @@
   justify-content: start;
   grid-gap: 5px;
 }
-#home #content-info #introduction #bt-about a {
-  text-decoration: underline;
+#home #content-info #introduction #bt-about #link-about {
   color: rgb(52, 75, 0);
+  text-decoration: none;
 }

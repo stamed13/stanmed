@@ -1,13 +1,28 @@
 #home {
     #content-title {
         display: grid;
-        justify-content: center;
-        font-weight: 600;
-        font-size: 2rem;
     }
+    
     #content-info {
+
+        a {
+            font-weight: 600;
+            text-decoration: none;
+
+            &:hover {
+                font-weight: 600;
+                text-decoration: underline;
+            }
+        }
+
         #introduction {
             font-size: 1.2rem;
+
+            #link-bio {
+                margin-left: 5px;
+                margin-right: 5px;
+                color: rgb(104, 68, 0);
+            }
 
             #bt-about {
                 padding-top: 10px;
@@ -20,10 +35,12 @@
 
                 }
 
-                a {
-                    text-decoration: underline;
+                //ked bude fungovat link na about, odstranim decoration none
+                #link-about {
                     color: rgb(52, 75, 0);
+                    text-decoration: none;
                 }
+
             }
 
             p {

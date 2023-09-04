@@ -1,30 +1,43 @@
 #bio {
-    #bio-info {
-        margin-bottom: 50px;
+    #content-title {
+        display: grid;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 2rem;
+    }
 
-        #bio-title {
-            display: grid;
-            justify-content: center;
-            font-weight: 600;
-            font-size: 2rem;
-        }
+    #content-info {
+        margin-bottom: 50px;
 
         #intro {
             display: grid;
+            gap: 25px;
 
-            @media(max-width: 250px){
+            //@media(max-width: 250px){
+            //    grid-auto-flow: column;
+            //}
+
+            @media(min-width: 250px){
                 grid-auto-flow: column;
             }
-            @media(min-width: 250px){
-                grid-auto-flow: row;
-            }
 
-            #bio-introduction {
+            #content-introduction {
+                display: grid;
+                gap: 10px;
                 font-size: 1.2rem;
+
+                #intro-basic {}
+
+                #follow {}
+
+                #closer {}
+
             }
 
-            .photo {
+            #bio-title-photo {
+                display: grid;
                 width: 90px;
+                border-radius: 5px;
             }
         }
     }
