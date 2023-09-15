@@ -6,6 +6,21 @@
 }
 #bio #content-info {
   margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+#bio #content-info a {
+  font-weight: 600;
+  text-decoration: none;
+}
+#bio #content-info a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+#bio #content-info .bear {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(104, 68, 0);
+  text-decoration: none;
 }
 #bio #content-info #intro {
   display: grid;
@@ -20,10 +35,40 @@
 #bio #content-info #intro #content-introduction {
   display: grid;
   gap: 10px;
-  font-size: 1.2rem;
+}
+#bio #content-info #intro #content-introduction #follow {
+  font-weight: 600;
+  color: rgb(0, 106, 0);
 }
 #bio #content-info #intro #bio-title-photo {
+  position: relative;
   display: grid;
   width: 90px;
   border-radius: 5px;
+}
+@media (max-width: 250px) {
+  #bio #content-info #intro #bio-title-photo {
+    justify-self: center;
+  }
+}
+@media (max-width: 250px) {
+  #bio #content-info #intro #bio-title-photo:hover {
+    width: 80vw;
+  }
+}
+@media (min-width: 250px) {
+  #bio #content-info #intro #bio-title-photo:hover {
+    position: absolute;
+    right: 25px;
+    width: 250px;
+    transition: 1s;
+  }
+}
+#bio #content-about {
+  font-size: 1.2rem;
+}
+#bio #content-about #title-near {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: underline;
 }

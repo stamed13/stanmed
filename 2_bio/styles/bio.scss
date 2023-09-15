@@ -8,40 +8,90 @@
 
     #content-info {
         margin-bottom: 50px;
+        font-size: 1.2rem;
+
+        a {
+            font-weight: 600;
+            text-decoration: none;
+
+            &:hover {
+                font-weight: 600;
+                text-decoration: underline;
+            }
+        }
+
+        .bear {
+            margin-left: 5px;
+            margin-right: 5px;
+            color: rgb(104, 68, 0);
+            text-decoration: none;
+        }
 
         #intro {
             display: grid;
             gap: 25px;
 
-            //@media(max-width: 250px){
-            //    grid-auto-flow: column;
-            //}
+            @media(max-width: 250px){
+               //grid-auto-flow: column;
+            }
 
             @media(min-width: 250px){
                 grid-auto-flow: column;
-                justify-content: space-between;;
+                justify-content: space-between;
             }
 
             #content-introduction {
                 display: grid;
                 gap: 10px;
-                font-size: 1.2rem;
 
-                #intro-basic {}
+                #intro-basic {
+                
+                }
 
-                #follow {}
+                #follow {
+                    font-weight: 600;
+                    color: rgb(0, 106, 0);
+                    //italic
+                }
 
                 #closer {}
 
             }
 
             #bio-title-photo {
+                position: relative;
                 display: grid;
                 width: 90px;
                 border-radius: 5px;
+
+                @media(max-width: 250px){
+                    justify-self: center;
+                }
+
+                &:hover {
+                    @media(max-width: 250px){
+                        width: 80vw;
+                    }
+                    @media(min-width: 250px){
+                        position: absolute;
+                        right: 25px;
+                        width: 250px;
+                        transition: 1s;
+                    }
+                }
             }
         }
     }
     
-    
+    #content-about {
+        font-size: 1.2rem;
+
+        #title-near {
+            font-size: 1.4rem;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        #near-info {}
+    }
 }
