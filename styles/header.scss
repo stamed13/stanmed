@@ -115,8 +115,9 @@
             background: whitesmoke;
             color: black;
 
-            @media(min-width: 0px) {
+            @media(max-width: 426px) {
                 width: 145px;
+                //display: none;
             }
     
             @media(min-width: 426px) {

@@ -109,7 +109,7 @@
   background: whitesmoke;
   color: black;
 }
-@media (min-width: 0px) {
+@media (max-width: 426px) {
   #header #header-menu #search {
     width: 145px;
   }
